@@ -33,7 +33,6 @@ const Getaways = () => {
           <img className="mb-4" src="/images/logo1.png" alt="" />
           <div className="relative">
             <img className="" src="/images/video1.png" alt="" />
-            <img className="absolute top-1/3 left-[380px]" src="/images/playBtn.png" alt="" />
           </div>
           {/* <video controls className="w-full h-full">
             <source src="/videos/video.mp4" type="video/mp4" />

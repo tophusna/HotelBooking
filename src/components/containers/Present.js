@@ -1,11 +1,11 @@
 const Present = () => {
   return (
     <div
-      className="flex justify-between items-center bg-[url('bg1.jfif')] bg-cover bg-no-repeat bg-center py-[100px] px-[200px] "
+      className="flex justify-between items-center bg-[url('bg1.jfif')] bg-cover bg-no-repeat bg-center py-[100px] px-[200px] gap-10"
       style={{ fontFamily: "Ubuntu" }}
     >
-      <div className="p-[40px] rounded-tr-[40px] rounded-bl-[40px] w-2/5 bg-[#00000078] opacity-47">
-        <p className="text-[25px] text-white">
+      <div className="p-[40px] rounded-tr-[40px] rounded-bl-[40px] 2xl:w-[700px] w-[500px] bg-[#00000078] opacity-47">
+        <p className="2xl:text-[25px] text-[18px] text-white">
           Luxury Hotels, a renowned global brand founded in England 17 years
           ago, is currently present in 89 countries. We provide Luxury Hotels
           for affluent travellers through our online platform and in print and

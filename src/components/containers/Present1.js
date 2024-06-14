@@ -6,7 +6,7 @@ const Present = () => {
     >
       <img className="w-full" src="/images/bg3.png" alt="" />
       <div className="absolute flex flex-col text-center gap-2">
-        <img src="/images/logo2.png" alt="Logo" />
+        <img className="w-[300px]" src="/images/logo1.png" alt="Logo" />
         <p className="text-[#C08832] text-[30px]">Presents</p>
       </div>
     </div>

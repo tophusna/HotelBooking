@@ -17,7 +17,7 @@ function CarouselWithActor() {
     },
   };
   return (
-    <div className="w-full border-[1px] border-gray rounded-xl p-[40px]">
+    <div className="flex items-center w-full border-[1px] border-gray rounded-xl px-[15px] py-[20px]">
       <Carousel
         responsive={responsive}
         arrows={true}
@@ -29,13 +29,13 @@ function CarouselWithActor() {
         showDots={true}
       >
         <div>
-          <img src="/images/magazine.png" alt="" className="w-full h-[760px] object-cover"/>
+          <img src="/images/magazine.png" alt="" className="w-full object-cover"/>
         </div>
         <div>
-          <img src="/images/magazine.png" alt="" className="w-full h-[760px] object-cover"/>
+          <img src="/images/magazine.png" alt="" className="w-full object-cover"/>
         </div>
         <div>
-          <img src="/images/magazine.png" alt="" className="w-full h-[760px] object-cover"/>
+          <img src="/images/magazine.png" alt="" className="w-full object-cover"/>
         </div>
       </Carousel>
     </div>

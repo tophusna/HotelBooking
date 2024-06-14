@@ -17,7 +17,7 @@ function CarouselWithActor() {
     },
   };
   return (
-    <div className="w-full border-[1px] border-gray rounded-xl px-[15px] py-[40px]">
+    <div className="">
       <Carousel
         responsive={responsive}
         arrows={true}
@@ -32,21 +32,21 @@ function CarouselWithActor() {
           <img
             src="/images/actor.png"
             alt=""
-            className="w-full h-[810px] object-cover"
+            className="w-full object-cover"
           />
         </div>
         <div>
           <img
             src="/images/actor.png"
             alt=""
-            className="w-full h-[810px] object-cover"
+            className="w-full object-cover"
           />
         </div>
         <div>
           <img
             src="/images/actor.png"
             alt=""
-            className="w-full h-[810px] object-cover"
+            className="w-full object-cover"
           />
         </div>
       </Carousel>
