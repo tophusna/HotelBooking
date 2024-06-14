@@ -37,44 +37,39 @@ const Work = () => {
           renderButtonGroupOutside={true}
           showDots={true}
         >
-                    <div className="flex flex-col items-center justify-center">
-
+          <div className="flex flex-col items-center justify-center">
             <img
               src="/images/work1.png"
               alt=""
-              className=" h-[100px] object-cover"
+              className=" h-[90px] object-cover"
             />
           </div>
           <div className="flex flex-col items-center justify-center">
-
             <img
               src="/images/work2.png"
               alt=""
-              className=" h-[100px] object-cover"
+              className=" h-[90px] object-cover"
             />
           </div>
           <div className="flex flex-col items-center justify-center">
-
             <img
               src="/images/work3.png"
               alt=""
-              className=" h-[100px] object-cover"
+              className=" h-[90px] object-cover"
             />
           </div>
           <div className="flex flex-col items-center justify-center">
-
             <img
               src="/images/work4.png"
               alt=""
-              className=" h-[100px] object-cover"
+              className=" h-[90px] object-cover"
             />
           </div>
           <div className="flex flex-col items-center justify-center">
-
             <img
               src="/images/work5.png"
               alt=""
-              className=" h-[100px] object-cover"
+              className=" h-[90px] object-cover"
             />
           </div>
         </Carousel>
